@@ -85,7 +85,7 @@ public class ElizaServerTest {
 		}, configuration, new URI("ws://localhost:8025/websockets/eliza"));
 		latch.await();
 		assertEquals(5, list.size());
-		assertEquals("Do you really think so?", list.get(3));
+		assertEquals("Do you really think so?", list.get(3)); 
 	}
 
 	@After
